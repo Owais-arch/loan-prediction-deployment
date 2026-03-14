@@ -167,14 +167,14 @@ pickle.dump(model, open("loan_model.pkl","wb"))
 
 #ngrok config add-authtoken 3AvdOChYo853xwfMVV7rGzd0cSx_7BgeMCPrWUoiK5dLUH2TH
 
-from pyngrok import ngrok
+#from pyngrok import ngrok
 
 ngrok.set_auth_token("3AvdOChYo853xwfMVV7rGzd0cSx_7BgeMCPrWUoiK5dLUH2TH")
 
 #!streamlit run app.py &>/dev/null &
 
-fr#om pyngrok import ngrok
-p#ublic_url = ngrok.connect(8501)
+#from pyngrok import ngrok
+#public_url = ngrok.connect(8501)
 #print(public_url)
 
 
