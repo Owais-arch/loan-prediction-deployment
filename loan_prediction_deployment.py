@@ -2,8 +2,11 @@ import streamlit as st
 import pickle
 import numpy as np
 
+import os
+import pickle
 
-model = pickle.load(open("loan_model.pkl","rb"))
+model_path = os.path.join(os.path.dirname(__file__), "loan_model.pkl")
+model = pickle.load(open(model_path, "rb"))
 
 st.title("Loan Approval Prediction")
 
