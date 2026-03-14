@@ -1,3 +1,9 @@
+Live Demo
+
+You can access the web application here:
+https://tetchily-interpervasive-tosha.ngrok-free.dev
+
+
 # loan-prediction-deployment
 End-to-End ML project for loan approval prediction
 
@@ -84,3 +90,4 @@ The model performs well in predicting loan approval based on applicant features.
 2. Load dataset
 3. Handle missing values
 4. Encode cat
+   
