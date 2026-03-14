@@ -2,12 +2,13 @@ import streamlit as st
 import pickle
 import numpy as np
 
-import os
+from pathlib import Path
 import pickle
 
-model_path = os.path.join(os.path.dirname(__file__), "loan_model.pkl")
-model = pickle.load(open(model_path, "rb"))
+model_path = Path(__file__).parent / "loan_model.pkl"
 
+with open(model_path, "rb") as file:
+    model = pickle.load(file)
 st.title("Loan Approval Prediction")
 
 ApplicantIncome = st.number_input("Applicant Income")
