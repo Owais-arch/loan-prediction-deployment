@@ -18,7 +18,12 @@ filterwarnings("ignore")
 
 """Load Dataset"""
 
-df=pd.read_csv("train_u6lujuX_CVtuZ9i.csv")
+#df=pd.read_csv("train_u6lujuX_CVtuZ9i.csv")
+import streamlit as st
+import pickle
+import numpy as np
+
+model = pickle.load(open("loan_model.pkl","rb"))
 df.head()
 
 df.shape
