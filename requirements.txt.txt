@@ -1,7 +1,4 @@
-pandas
-numpy
-scikit-learn
 streamlit
-matplotlib
-seaborn
-pyngrok
+numpy
+pandas
+scikit-learn
