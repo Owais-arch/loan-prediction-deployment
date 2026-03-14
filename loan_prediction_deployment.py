@@ -18,7 +18,7 @@ filterwarnings("ignore")
 
 """Load Dataset"""
 
-df=pd.read_csv("/content/train_u6lujuX_CVtuZ9i.csv")
+df=pd.read_csv("train_u6lujuX_CVtuZ9i.csv")
 df.head()
 
 df.shape
