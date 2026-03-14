@@ -103,7 +103,7 @@ pickle.dump(model, open("loan_model.pkl","wb"))
 
 """Creating Deployment App"""
 
-!pip install streamlit pyngrok
+#!pip install streamlit pyngrok
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
@@ -163,7 +163,7 @@ pickle.dump(model, open("loan_model.pkl","wb"))
 import pickle
 pickle.dump(model, open("loan_model.pkl","wb"))
 
-!streamlit run app.py &>/dev/null &
+#!streamlit run app.py &>/dev/null &
 
 #ngrok config add-authtoken 3AvdOChYo853xwfMVV7rGzd0cSx_7BgeMCPrWUoiK5dLUH2TH
 
@@ -171,7 +171,7 @@ from pyngrok import ngrok
 
 ngrok.set_auth_token("3AvdOChYo853xwfMVV7rGzd0cSx_7BgeMCPrWUoiK5dLUH2TH")
 
-!streamlit run app.py &>/dev/null &
+#!streamlit run app.py &>/dev/null &
 
 from pyngrok import ngrok
 public_url = ngrok.connect(8501)
