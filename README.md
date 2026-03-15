@@ -1,7 +1,7 @@
 Live Demo
 
 You can access the web application here:
-https://tetchily-interpervasive-tosha.ngrok-free.dev
+https://loan-prediction-deployment-nkt5dgngpvcem7vsoil2hy.streamlit.app/
 
 
 # loan-prediction-deployment
